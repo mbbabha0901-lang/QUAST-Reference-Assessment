@@ -1,0 +1,66 @@
+/home/abhaa/miniconda3/envs/quast/bin/quast contigs.fasta -o QUAST
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39 (linux_64)
+  Python version: 3.13.14
+  CPUs number: 12
+
+Started: 2026-06-17 09:33:23
+
+Logging to /home/abhaa/NGS/ASSEMBLE/QUAST/quast.log
+NOTICE: Maximum number of threads is set to 3 (use --threads option to set it manually)
+
+CWD: /home/abhaa/NGS/ASSEMBLE
+Main parameters: 
+  MODE: default, threads: 3, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  contigs.fasta ==> contigs
+
+2026-06-17 09:33:26
+Running Basic statistics processor...
+  Contig files: 
+    contigs
+  Calculating N50 and L50...
+    contigs, N50 = 115329, L50 = 6, auN = 271496.3, Total length = 3222192, GC % = 44.42, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/abhaa/NGS/ASSEMBLE/QUAST/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/abhaa/NGS/ASSEMBLE/QUAST/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/abhaa/NGS/ASSEMBLE/QUAST/basic_stats/GC_content_plot.pdf
+  Drawing contigs GC content plot...
+    saved to /home/abhaa/NGS/ASSEMBLE/QUAST/basic_stats/contigs_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /home/abhaa/NGS/ASSEMBLE/QUAST/basic_stats/coverage_histogram.pdf
+  Drawing contigs coverage histogram (bin size: 1x)...
+    saved to /home/abhaa/NGS/ASSEMBLE/QUAST/basic_stats/contigs_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-06-17 09:33:29
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2026-06-17 09:33:30
+RESULTS:
+  Text versions of total report are saved to /home/abhaa/NGS/ASSEMBLE/QUAST/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/abhaa/NGS/ASSEMBLE/QUAST/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/abhaa/NGS/ASSEMBLE/QUAST/report.html
+  PDF version (tables and plots) is saved to /home/abhaa/NGS/ASSEMBLE/QUAST/report.pdf
+  Icarus (contig browser) is saved to /home/abhaa/NGS/ASSEMBLE/QUAST/icarus.html
+  Log is saved to /home/abhaa/NGS/ASSEMBLE/QUAST/quast.log
+
+Finished: 2026-06-17 09:33:30
+Elapsed time: 0:00:07.250104
+NOTICEs: 2; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
