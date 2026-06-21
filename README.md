@@ -54,5 +54,4 @@ QUAST-Reference-Assessment/
 ## Author
 **Abha**
 
-M.Sc. Bioinformatics  
-Graphic Era (Deemed to be) University
+
